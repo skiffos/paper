@@ -1,0 +1,137 @@
+@inproceedings{nixos,
+  author = {Dolstra, Eelco and L\"{o}h, Andres},
+  title = {NixOS: A Purely Functional Linux Distribution},
+  year = {2008},
+  isbn = {9781595939197},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  url = {https://doi.org/10.1145/1411204.1411255},
+  doi = {10.1145/1411204.1411255},
+  abstract = {Existing package and system configuration management tools suffer from an imperative model, where system administration actions such as upgrading packages or changes to system configuration files are stateful: they destructively update the state of the system. This leads to many problems, such as the inability to roll back changes easily, to run multiple versions of a package side-by-side, to reproduce a configuration deterministically on another machine, or to reliably upgrade a system. In this paper we show that we can overcome these problems by moving to a purely functional system configuration model. This means that all static parts of a system (such as software packages, configuration files and system startup scripts) are built by pure functions and are immutable, stored in a way analogously to a heap in a purely function language. We have implemented this model in NixOS, a non-trivial Linux distribution that uses the Nix package manager to build the entire system configuration from a purely functional specification.},
+  booktitle = {Proceedings of the 13th ACM SIGPLAN International Conference on Functional Programming},
+  pages = {367–378},
+  numpages = {12},
+  keywords = {purely functional language, package management, nix, NixOS, software deployment, system configuration management, purely functional deployment model},
+  location = {Victoria, BC, Canada},
+  series = {ICFP '08}
+}
+
+@article{foss,
+  author    = {Roberto Di Cosmo and
+               Stefano Zacchiroli and
+               Paulo Trezentos},
+  title     = {Package upgrades in {FOSS} distributions: details and challenges},
+  journal   = {CoRR},
+  volume    = {abs/0902.1610},
+  year      = {2009},
+  url       = {http://arxiv.org/abs/0902.1610},
+  archivePrefix = {arXiv},
+  eprint    = {0902.1610},
+  timestamp = {Mon, 13 Aug 2018 16:48:11 +0200},
+  biburl    = {https://dblp.org/rec/journals/corr/abs-0902-1610.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{buildrootrt,
+  title = {Managing a Real-Time Embedded Linux Platform with Buildroot},
+  author = {Diamond, J. and Martin, K.},
+  abstractNote = {Developers of real-time embedded software often need to build the operating system, kernel, tools and supporting applications from source to work with the differences in their hardware configuration. The first attempts to introduce Linux-based real-time embedded systems into the Fermilab accelerator controls system used this approach but it was found to be time-consuming, difficult to maintain and difficult to adapt to different hardware configurations. Buildroot is an open source build system with a menu-driven configuration tool (similar to the Linux kernel build system) that automates this process. A customized Buildroot [1] system has been developed for use in the Fermilab accelerator controls system that includes several hardware configuration profiles (including Intel, ARM and PowerPC) and packages for Fermilab support software. A bootable image file is produced containing the Linux kernel, shell and supporting software suite that varies from 3 to 20 megabytes large – ideal for network booting. The result is a platform that is easier to maintain and deploy in diverse hardware configurations},
+  url = {https://www.osti.gov/biblio/1250794},
+  journal = {Fermi National Accelerator Lab},
+  place = {United States},
+  year = {2015},
+} 
+
+@inproceedings{autoveh,
+  author={Y. {Wang} and Q. {Bao}},
+  booktitle={2020 10th Annual Computing and Communication Workshop and Conference (CCWC)}, 
+  title={Adapting a Container Infrastructure for Autonomous Vehicle Development}, 
+  year={2020},
+  volume={},
+  number={},
+  pages={0182-0187},
+  doi={10.1109/CCWC47524.2020.9031129},
+}
+
+@misc{buildroot,
+  title={Buildroot},
+  url={https://buildroot.org/},
+  urldate = {2021-03-17}, 
+}
+
+@misc{skiffext,
+  title={SkiffOS Extension Template},
+  url={https://github.com/skiffos/skiff-ext-example},
+  urldate={2021-03-17},
+}
+
+@inproceedings{yoctobr,
+  title={Buildroot vs. OpenEmbedded/Yocto Project: A Four Hands Discussion},
+  url={https://events.static.linuxfound.org/sites/events/files/slides/belloni-petazzoni-buildroot-oe_0.pdf},
+  author={Alexandre Belloni, Thomas Petazzoni},
+  urldate = {2021-03-17}, 
+  year = {2016},
+  booktitle={Embedded Linux Conference},
+}
+
+@misc{jetson,
+  title={NVIDIA Jetson TX2 Developer Kit},
+  url={https://developer.nvidia.com/embedded/jetson-tx2-developer-kit},
+  urldate = {2021-01-14}, 
+}
+
+@misc{fhs,
+  title={Filesystem Hierarchy Standard},
+  url={https://refspecs.linuxfoundation.org/FHS_3.0/fhs-3.0.pdf},
+  urldate = {2021-03-17}, 
+}
+
+@misc{yocto,
+  title={Yocto Project},
+  url={https://www.yoctoproject.org/},
+  urldate = {2021-03-17}, 
+}
+
+@misc{reworkflow,
+      title={Self-Scaling Clusters and Reproducible Containers to Enable Scientific Computing}, 
+      author={Peter Z. Vaillancourt and J. Eric Coulter and Richard Knepper and Brandon Barker},
+      year={2020},
+      eprint={2006.14784},
+      archivePrefix={arXiv},
+      primaryClass={cs.DC}
+}
+
+@article{fprime,
+  title={F Prime: an open-source framework for small-scale flight software systems},
+  author={Bocchino, Robert and Canham, Timothy and Watney, Garth and Reder, Leonard and Levison, Jeffrey},
+  year={2018}
+}
+
+@inproceedings{nasacfs,
+  title={NASA/GSFC’s Flight Software Core Flight System},
+  author={McComas, David},
+  booktitle={Flight Software Workshop},
+  volume={11},
+  year={2012}
+}
+
+@misc{virtperf,
+      title={Performance Exploration of Virtualization Systems}, 
+      author={Joel Mandebi Mbongue and Danielle Tchuinkou Kwadjo and Christophe Bobda},
+      year={2021},
+      eprint={2103.07092},
+      archivePrefix={arXiv},
+      primaryClass={cs.DC}
+}
+
+@inproceedings{iotcontainer,
+  author={R. {Morabito}},
+  booktitle={2016 IEEE Conference on Computer Communications Workshops (INFOCOM WKSHPS)}, 
+  title={A performance evaluation of container technologies on Internet of Things devices}, 
+  year={2016},
+  volume={},
+  number={},
+  pages={999-1000},
+  doi={10.1109/INFCOMW.2016.7562228},
+  }
+

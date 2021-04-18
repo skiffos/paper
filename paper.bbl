@@ -1,0 +1,445 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{foss}{article}{}
+      \name{author}{3}{}{%
+        {{hash=f4b912b2fec225978d70d08bbaf8eb87}{%
+           family={Cosmo},
+           familyi={C\bibinitperiod},
+           given={Roberto\bibnamedelima Di},
+           giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=37793c8bd46d30533470b220704d85b1}{%
+           family={Zacchiroli},
+           familyi={Z\bibinitperiod},
+           given={Stefano},
+           giveni={S\bibinitperiod}}}%
+        {{hash=c29b6573e65018f33d7e02a4154fa20f}{%
+           family={Trezentos},
+           familyi={T\bibinitperiod},
+           given={Paulo},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{5434154d4cfe0dacc86779d67fa38597}
+      \strng{fullhash}{5434154d4cfe0dacc86779d67fa38597}
+      \strng{bibnamehash}{5434154d4cfe0dacc86779d67fa38597}
+      \strng{authorbibnamehash}{5434154d4cfe0dacc86779d67fa38597}
+      \strng{authornamehash}{5434154d4cfe0dacc86779d67fa38597}
+      \strng{authorfullhash}{5434154d4cfe0dacc86779d67fa38597}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{CoRR}
+      \field{title}{Package upgrades in {FOSS} distributions: details and challenges}
+      \field{volume}{abs/0902.1610}
+      \field{year}{2009}
+      \verb{eprint}
+      \verb 0902.1610
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/0902.1610
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/0902.1610
+      \endverb
+    \endentry
+    \entry{nixos}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=a3e96caa8e2128d249c9bae69079bc78}{%
+           family={Dolstra},
+           familyi={D\bibinitperiod},
+           given={Eelco},
+           giveni={E\bibinitperiod}}}%
+        {{hash=dea227d45d0919684686f3671a2987f6}{%
+           family={Löh},
+           familyi={L\bibinitperiod},
+           given={Andres},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Victoria, BC, Canada}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computing Machinery}%
+      }
+      \strng{namehash}{fbc46e2cece7a33a31cddb617af05dab}
+      \strng{fullhash}{fbc46e2cece7a33a31cddb617af05dab}
+      \strng{bibnamehash}{fbc46e2cece7a33a31cddb617af05dab}
+      \strng{authorbibnamehash}{fbc46e2cece7a33a31cddb617af05dab}
+      \strng{authornamehash}{fbc46e2cece7a33a31cddb617af05dab}
+      \strng{authorfullhash}{fbc46e2cece7a33a31cddb617af05dab}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Existing package and system configuration management tools suffer from an imperative model, where system administration actions such as upgrading packages or changes to system configuration files are stateful: they destructively update the state of the system. This leads to many problems, such as the inability to roll back changes easily, to run multiple versions of a package side-by-side, to reproduce a configuration deterministically on another machine, or to reliably upgrade a system. In this paper we show that we can overcome these problems by moving to a purely functional system configuration model. This means that all static parts of a system (such as software packages, configuration files and system startup scripts) are built by pure functions and are immutable, stored in a way analogously to a heap in a purely function language. We have implemented this model in NixOS, a non-trivial Linux distribution that uses the Nix package manager to build the entire system configuration from a purely functional specification.}
+      \field{booktitle}{Proceedings of the 13th ACM SIGPLAN International Conference on Functional Programming}
+      \field{isbn}{9781595939197}
+      \field{series}{ICFP '08}
+      \field{title}{NixOS: A Purely Functional Linux Distribution}
+      \field{year}{2008}
+      \field{pages}{367\bibrangedash 378}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1145/1411204.1411255
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1145/1411204.1411255
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1145/1411204.1411255
+      \endverb
+      \keyw{purely functional language,package management,nix,NixOS,software deployment,system configuration management,purely functional deployment model}
+    \endentry
+    \entry{buildroot}{misc}{}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{labeltitlesource}{title}
+      \field{title}{Buildroot}
+      \field{urlday}{17}
+      \field{urlmonth}{3}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://buildroot.org/
+      \endverb
+      \verb{url}
+      \verb https://buildroot.org/
+      \endverb
+    \endentry
+    \entry{buildrootrt}{article}{}
+      \name{author}{2}{}{%
+        {{hash=7ca74fd6f2b20d5aa3b0b7e22f4c48fb}{%
+           family={Diamond},
+           familyi={D\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=6e3d526fa3102d5e36cab7bf90bdb99b}{%
+           family={Martin},
+           familyi={M\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{709391ec780ceca53e9fee7de1b4d658}
+      \strng{fullhash}{709391ec780ceca53e9fee7de1b4d658}
+      \strng{bibnamehash}{709391ec780ceca53e9fee7de1b4d658}
+      \strng{authorbibnamehash}{709391ec780ceca53e9fee7de1b4d658}
+      \strng{authornamehash}{709391ec780ceca53e9fee7de1b4d658}
+      \strng{authorfullhash}{709391ec780ceca53e9fee7de1b4d658}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Fermi National Accelerator Lab}
+      \field{title}{Managing a Real-Time Embedded Linux Platform with Buildroot}
+      \field{year}{2015}
+      \verb{urlraw}
+      \verb https://www.osti.gov/biblio/1250794
+      \endverb
+      \verb{url}
+      \verb https://www.osti.gov/biblio/1250794
+      \endverb
+    \endentry
+    \entry{reworkflow}{misc}{}
+      \name{author}{4}{}{%
+        {{hash=72651dd6a276b2f59158b67654f10398}{%
+           family={Vaillancourt},
+           familyi={V\bibinitperiod},
+           given={Peter\bibnamedelima Z.},
+           giveni={P\bibinitperiod\bibinitdelim Z\bibinitperiod}}}%
+        {{hash=422262b0c0092fe12e94ab221e428251}{%
+           family={Coulter},
+           familyi={C\bibinitperiod},
+           given={J.\bibnamedelimi Eric},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=6b490019face26b0654bb9a749a82d2c}{%
+           family={Knepper},
+           familyi={K\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod}}}%
+        {{hash=dd42c83cdcbba394af7e28192b52f59d}{%
+           family={Barker},
+           familyi={B\bibinitperiod},
+           given={Brandon},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{b741e794ea4a9a59be494606477b6eb9}
+      \strng{fullhash}{4e105b41079c46d1756119629bb47ca2}
+      \strng{bibnamehash}{4e105b41079c46d1756119629bb47ca2}
+      \strng{authorbibnamehash}{4e105b41079c46d1756119629bb47ca2}
+      \strng{authornamehash}{b741e794ea4a9a59be494606477b6eb9}
+      \strng{authorfullhash}{4e105b41079c46d1756119629bb47ca2}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cs.DC}
+      \field{eprinttype}{arXiv}
+      \field{title}{Self-Scaling Clusters and Reproducible Containers to Enable Scientific Computing}
+      \field{year}{2020}
+      \verb{eprint}
+      \verb 2006.14784
+      \endverb
+    \endentry
+    \entry{autoveh}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=61ad10c626e1d641e0b1d7b5f48d3233}{%
+           family={{Wang}},
+           familyi={W\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=9a27baeb8fd96b41f4199a7da0cdcf6d}{%
+           family={{Bao}},
+           familyi={B\bibinitperiod},
+           given={Q.},
+           giveni={Q\bibinitperiod}}}%
+      }
+      \strng{namehash}{21317159e041fd772532d7742f459d05}
+      \strng{fullhash}{21317159e041fd772532d7742f459d05}
+      \strng{bibnamehash}{21317159e041fd772532d7742f459d05}
+      \strng{authorbibnamehash}{21317159e041fd772532d7742f459d05}
+      \strng{authornamehash}{21317159e041fd772532d7742f459d05}
+      \strng{authorfullhash}{21317159e041fd772532d7742f459d05}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2020 10th Annual Computing and Communication Workshop and Conference (CCWC)}
+      \field{title}{Adapting a Container Infrastructure for Autonomous Vehicle Development}
+      \field{year}{2020}
+      \field{pages}{0182\bibrangedash 0187}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/CCWC47524.2020.9031129
+      \endverb
+    \endentry
+    \entry{skiffext}{misc}{}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{labeltitlesource}{title}
+      \field{title}{SkiffOS Extension Template}
+      \field{urlday}{17}
+      \field{urlmonth}{3}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://github.com/skiffos/skiff-ext-example
+      \endverb
+      \verb{url}
+      \verb https://github.com/skiffos/skiff-ext-example
+      \endverb
+    \endentry
+    \entry{fprime}{article}{}
+      \name{author}{5}{}{%
+        {{hash=dc83402ab311c362e24fe280ee16561f}{%
+           family={Bocchino},
+           familyi={B\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod}}}%
+        {{hash=c352c505f3bb6c6bdbf12e8e3c835592}{%
+           family={Canham},
+           familyi={C\bibinitperiod},
+           given={Timothy},
+           giveni={T\bibinitperiod}}}%
+        {{hash=a36a424c5cb71c723f6b91b149b34b23}{%
+           family={Watney},
+           familyi={W\bibinitperiod},
+           given={Garth},
+           giveni={G\bibinitperiod}}}%
+        {{hash=09208edd03d7f11602790b51a5767c74}{%
+           family={Reder},
+           familyi={R\bibinitperiod},
+           given={Leonard},
+           giveni={L\bibinitperiod}}}%
+        {{hash=b58da6e13134a55fbf53d05fa874b61a}{%
+           family={Levison},
+           familyi={L\bibinitperiod},
+           given={Jeffrey},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{ef8cf1f9581e4fc8e53379a00016cf92}
+      \strng{fullhash}{683837d8f1e1c36f738f10a4e1f5c35a}
+      \strng{bibnamehash}{683837d8f1e1c36f738f10a4e1f5c35a}
+      \strng{authorbibnamehash}{683837d8f1e1c36f738f10a4e1f5c35a}
+      \strng{authornamehash}{ef8cf1f9581e4fc8e53379a00016cf92}
+      \strng{authorfullhash}{683837d8f1e1c36f738f10a4e1f5c35a}
+      \field{sortinit}{8}
+      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{F Prime: an open-source framework for small-scale flight software systems}
+      \field{year}{2018}
+    \endentry
+    \entry{nasacfs}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=0fbeb9dcf5963ce8bccea7b4aa5b43f4}{%
+           family={McComas},
+           familyi={M\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{0fbeb9dcf5963ce8bccea7b4aa5b43f4}
+      \strng{fullhash}{0fbeb9dcf5963ce8bccea7b4aa5b43f4}
+      \strng{bibnamehash}{0fbeb9dcf5963ce8bccea7b4aa5b43f4}
+      \strng{authorbibnamehash}{0fbeb9dcf5963ce8bccea7b4aa5b43f4}
+      \strng{authornamehash}{0fbeb9dcf5963ce8bccea7b4aa5b43f4}
+      \strng{authorfullhash}{0fbeb9dcf5963ce8bccea7b4aa5b43f4}
+      \field{sortinit}{9}
+      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Flight Software Workshop}
+      \field{title}{NASA/GSFC’s Flight Software Core Flight System}
+      \field{volume}{11}
+      \field{year}{2012}
+    \endentry
+    \entry{virtperf}{misc}{}
+      \name{author}{3}{}{%
+        {{hash=408e10d620e62a634071c179beb86303}{%
+           family={Mbongue},
+           familyi={M\bibinitperiod},
+           given={Joel\bibnamedelima Mandebi},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=228fb7a4b931338a115029fd05fd2790}{%
+           family={Kwadjo},
+           familyi={K\bibinitperiod},
+           given={Danielle\bibnamedelima Tchuinkou},
+           giveni={D\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=4f1edc979bfdbb8965fd88d2a359dd52}{%
+           family={Bobda},
+           familyi={B\bibinitperiod},
+           given={Christophe},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{5f46a363f4ed771105504842f3116e35}
+      \strng{fullhash}{5f46a363f4ed771105504842f3116e35}
+      \strng{bibnamehash}{5f46a363f4ed771105504842f3116e35}
+      \strng{authorbibnamehash}{5f46a363f4ed771105504842f3116e35}
+      \strng{authornamehash}{5f46a363f4ed771105504842f3116e35}
+      \strng{authorfullhash}{5f46a363f4ed771105504842f3116e35}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cs.DC}
+      \field{eprinttype}{arXiv}
+      \field{title}{Performance Exploration of Virtualization Systems}
+      \field{year}{2021}
+      \verb{eprint}
+      \verb 2103.07092
+      \endverb
+    \endentry
+    \entry{iotcontainer}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=85d18cbb17d74b22d5542e3e50b90c10}{%
+           family={{Morabito}},
+           familyi={M\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{85d18cbb17d74b22d5542e3e50b90c10}
+      \strng{fullhash}{85d18cbb17d74b22d5542e3e50b90c10}
+      \strng{bibnamehash}{85d18cbb17d74b22d5542e3e50b90c10}
+      \strng{authorbibnamehash}{85d18cbb17d74b22d5542e3e50b90c10}
+      \strng{authornamehash}{85d18cbb17d74b22d5542e3e50b90c10}
+      \strng{authorfullhash}{85d18cbb17d74b22d5542e3e50b90c10}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2016 IEEE Conference on Computer Communications Workshops (INFOCOM WKSHPS)}
+      \field{title}{A performance evaluation of container technologies on Internet of Things devices}
+      \field{year}{2016}
+      \field{pages}{999\bibrangedash 1000}
+      \range{pages}{2}
+      \verb{doi}
+      \verb 10.1109/INFCOMW.2016.7562228
+      \endverb
+    \endentry
+    \entry{fhs}{misc}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labeltitlesource}{title}
+      \field{title}{Filesystem Hierarchy Standard}
+      \field{urlday}{17}
+      \field{urlmonth}{3}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://refspecs.linuxfoundation.org/FHS_3.0/fhs-3.0.pdf
+      \endverb
+      \verb{url}
+      \verb https://refspecs.linuxfoundation.org/FHS_3.0/fhs-3.0.pdf
+      \endverb
+    \endentry
+    \entry{yocto}{misc}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labeltitlesource}{title}
+      \field{title}{Yocto Project}
+      \field{urlday}{17}
+      \field{urlmonth}{3}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.yoctoproject.org/
+      \endverb
+      \verb{url}
+      \verb https://www.yoctoproject.org/
+      \endverb
+    \endentry
+    \entry{yoctobr}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=650638e31667b1f87b300bf5f686ed50}{%
+           family={Alexandre\bibnamedelima Belloni},
+           familyi={A\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={Thomas\bibnamedelima Petazzoni},
+           giveni={T\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{650638e31667b1f87b300bf5f686ed50}
+      \strng{fullhash}{650638e31667b1f87b300bf5f686ed50}
+      \strng{bibnamehash}{650638e31667b1f87b300bf5f686ed50}
+      \strng{authorbibnamehash}{650638e31667b1f87b300bf5f686ed50}
+      \strng{authornamehash}{650638e31667b1f87b300bf5f686ed50}
+      \strng{authorfullhash}{650638e31667b1f87b300bf5f686ed50}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Embedded Linux Conference}
+      \field{title}{Buildroot vs. OpenEmbedded/Yocto Project: A Four Hands Discussion}
+      \field{urlday}{17}
+      \field{urlmonth}{3}
+      \field{urlyear}{2021}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://events.static.linuxfound.org/sites/events/files/slides/belloni-petazzoni-buildroot-oe_0.pdf
+      \endverb
+      \verb{url}
+      \verb https://events.static.linuxfound.org/sites/events/files/slides/belloni-petazzoni-buildroot-oe_0.pdf
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
