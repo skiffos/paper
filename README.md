@@ -8,7 +8,7 @@
 The report is available in these formats:
 
  - [Markdown](./paper.md)
- - [PDF](./paper.pdf)
+ - [PDF](./2104.00048.pdf)
  - [LaTeX](./paper.tex)
 
 This work is licensed under a [Creative Commons Attribution 4.0 International
