@@ -335,7 +335,7 @@ empty, the system will instead build the included `Dockerfile`.
   Gentoo            [core/gentoo](https://github.com/skiffos/skiffos/tree/2020.11.7/configs/core/gentoo)     [gentoo.org](https://gentoo.org)
   Manjaro           [core/manjaro](https://github.com/skiffos/skiffos/tree/2020.11.7/configs/core/manjaro)   [manjaro.org](https://manjaro.org)
   NixOS             [core/nixos](https://github.com/skiffos/skiffos/tree/2020.11.7/configs/core/nixos/)      [nixos.org](https://nixos.org)
-  Ubuntu            [skiff/core](https://github.com/skiffos/skiffos/tree/2020.11.7/configs/skiff/core/)      [ubuntu.org](https://ubuntu.org)
+  Ubuntu            [skiff/core](https://github.com/skiffos/skiffos/tree/2020.11.7/configs/skiff/core/)      [ubuntu.com](https://ubuntu.com)
 
 Additional images optimized for specific use cases are available:
 
